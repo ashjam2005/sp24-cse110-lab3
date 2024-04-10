@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Attempt at making an HTML page</title>
+    <link rel="icon" type="image/png" sizes = "32x32" href="favicon-32x32.png">
+  </head>
+  
+  <body>
+    
+    <header>
+        <h3> What is it?</h3>
+        <p> This is a header. Here you put all your introductory links or what not.</p>
+        <meta charset = "UTF-8">
+        <meta something = "Whatever">
+    </header>
+    <main>
+      <section>     
+       <h1>About myself.</h1>
+       <h2>Wait a minute. Who are you?</h2>
+       <p> Hello. My name is Asher James. Very nice to meet you.</p>
+       <h2> Why are you making this html page?</h2>
+       <h3> What do you hope to achieve?</h3>
+       <p> Well just to fiddle about with html. Hope to understand the language of HTML little better.</p>
+      </section>  
+      
+      <hr>
+
+      <section>
+      <h1> How do I incorporate links in html?</h1>
+      <p> Simple. Use nav tag.</p>
+      <nav>
+        <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Motivational video</a>
+        <a href = "https://www.youtube.com/watch?v=oguLcKCtE7M"> Funny memes</a>
+      </nav>
+      </section>
+
+      <div></div>
+      <span></span>
+
+      <h1> Lists of objectives</h1>
+      <ul>
+        <li> Squat 315 lbs</li>
+        <li> Get into a research lab</li>
+        <li> Just get better grades</li>
+      </ul>
+
+      <h1> Priorities of objectives</h1>
+      <ol>
+        <li>Get into research lab</li>
+        <li> Just get better grades</li>
+        <li> Squat 315 lbs</li>
+      </ol>
+
+      <h1> Attempt to do in-text stuff</h1>
+      <p>This is normal text - <b> and this is the bolded stuff</b>.</p>
+      <p>This is normal text- <strong> but this is solely for important text.</strong></p>
+      <p> This is normal text -<i> and this should be italicized text</i>.</p>
+      <p> This is normal text -<em> and this is text to be emphasized</em>.</p>
+      <p> This is normal text <br> and this is text in the next line.</p>
+
+
+
+    </main>
+    <footer>
+        <h3> What is this?</h3>
+        <p> This is a footer. Here you can put your bibliography and what not.</p>
+    </footer>
+
+    <img src="ronaldo.jpg" alt="The GOAT of football" width="500" height="600">
+    <br>
+    <audio controls>
+      <source src="RealRecording.m4a" type="audio/mp4" />
+      This type of source is not supported.
+    </audio>
+
+    <br>
+
+    <video width="320" height="240" controls>
+      <source src="Video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <details>
+      <summary>About myself</summary>
+      <p> I am Asher. Just making this website for fiddling about with html.</p>
+    </details>
+    
+    <form action="/action_page.php" method="get">
+      <label for="fname">Username:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Password:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <form action="/action_page.php">
+      <fieldset>
+       <legend>Set Discord Profile:</legend>
+       <label for="fname">Preferred Username:</label>
+       <input type="text" id="fname" name="fname"><br><br>
+       <label for="lname">Email:</label>      
+       <input type="email" id="email" name="email"><br><br>      
+       <input type="submit" value="Submit">
+      </fieldset>
+     </form>
+
+     <form action="/action_page.php">
+      <p> Your name is</p>
+
+      <label for="fname">Asher</label>
+      <input type="checkbox" id="fname" name="fname"><br><br>
+      <label for="fname">Something else</label>
+      <input type="checkbox" id="fname" name="fname"><br><br>
+
+
+      <p>Your last name is:</p>
+      <label for="lname">James</label>
+      <input type="radio" id="lname" name="lname"><br><br>
+      <label for="lname">Not james</label>
+      <input type="radio" id="lname" name="lname"><br><br>
+
+
+      <p>Today's date is</p>
+      <label for="lname">Date</label>
+      <input type="date" id="lname" name="lname"><br><br>
+
+    </form>
+    
+    <p><label for="w3review">Attempt at text space:</label></p>
+  <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+  <br>
+
+  <form action="/action_page.php" method="get">
+    <label for="browser">Choose something:</label>
+    <input list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+      <option value="Sometimes">
+      <option value="All the time">
+      <option value="Never">
+    </datalist>
+    <input type="submit">
+  </form>
+    
+
+  <label for="freqs">Choose something:</label>
+
+<select name="freqs" id="freqs">
+  <option value="default">default</option>
+  <option value="sometimes">sometimes</option>
+  <option value="all the time">all the time</option>
+  <option value="never">never</option>
+</select>
+<br>
+<button type="button">Click Me!</button>
+
+  </body>
+</html>
