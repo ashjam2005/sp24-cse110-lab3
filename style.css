@@ -1,1 +1,28 @@
+/* Below is my first attempt at making a CSS file*/
+
+body {
+  background-color: lightblue;
+}
+
+header {
+  color: #00a400;
+  margin-left: 0px;
+}
+
+#00 {
+  color: rgb(214, 122, 127);
+  margin-left: 10px;
+}
+
+h2{
+  color: navy;
+  margin-left: 20px;
+}
+
+p{
+  color: hsl(30deg 82% 43%);
+  margin-left: 30px; 
+}
+
+
 
