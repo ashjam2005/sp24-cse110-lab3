@@ -1,0 +1,182 @@
+/* Below is my first attempt at making a CSS file*/
+:root {
+  --something: navy;
+}
+
+body{
+  background-color: navy;
+}
+
+@media screen and (min-width: 960px){
+body {
+  background-color: lightblue;
+}
+
+}
+
+h1, h2, h3{
+  font-family: helvetica;
+}
+
+
+
+#realFirst {
+  color: #00a400;
+  margin-top: 2cm;
+  
+  
+  padding-top: 3px;
+}
+
+ol {
+  display: flex;
+}
+
+nav{
+  display: grid;
+  color: black;
+  grid-column-start: 1;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+
+}
+
+#fakeFirst {
+  color: #00a400;
+  text-decoration: overline red;
+  text-align: left;
+  margin: top;
+  padding: top;
+  display:none;
+}
+
+#first {
+  color: rgb(214, 122, 127);
+  margin-right: 10mm;
+  padding-right: 5px;
+  display:block;
+  height: auto;
+  width:auto;
+  font-family: 'Roboto Mano', sans-serif; /* 3rd party font*/
+}
+
+#second {
+  color: navy;
+  margin: left;
+  padding-left: 5px;
+  max-height: auto;
+  max-width: auto;
+}
+
+#firstBody{
+  color: hsl(30deg 82% 43%);
+  margin-left: 30em; 
+  padding: left;
+  position: sticky;
+}
+
+#third{
+  background-color: black;
+  color: hsl(30deg 82% 43%);
+  margin-left: 30rem; 
+  position: absolute;
+}
+
+#fourth{
+  color: color(srgb 0.4 0.3 0.5 / 1);
+  margin-left: 30vh; 
+}
+
+#secondBody{
+  color: color-mix(in srgb, #34c9eb 20%, white);
+  margin-left: 30px; 
+}
+
+#applyroot{
+  color: var(--something, lightblue);
+  margin: right; 
+  padding:right;
+}
+
+#freqs{
+  margin: bottom;
+  padding: bottom;
+}
+
+#question{
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+#last{
+  margin-bottom: 4px;
+  padding-bottom: 1px;
+}
+
+li{
+  color:#00a400;
+}
+
+button:hover{
+  color:navy;
+  margin: auto;
+}
+
+main:active{
+  color:#34c9eb;
+}
+
+a[href]{
+  background-color: yellow;
+}
+
+.why{
+  background-color: yellow;
+}
+
+header h3{
+  background-color: navy;
+
+}
+
+header > p{
+  background-color: lightblue;
+}
+
+h3 ~ p{
+  background-color: lightcoral;
+}
+
+h3 + p{
+  background-color: yellowgreen;
+
+}
+
+p.why{
+  background-color: violet;
+
+}
+
+h1:has(+ p) {
+  margin-bottom: 0;
+}
+
+nav {
+  margin:top;
+  & a {
+    margin:bottom;
+  }
+}
+
+*{
+  color: blanchedalmond;
+}
+
+
+
+
+
+
