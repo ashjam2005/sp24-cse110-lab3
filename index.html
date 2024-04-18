@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      h1 {color:red;}
+    </style>
     <title>My Attempt at making an HTML page</title>
     <link rel="icon" type="image/png" sizes = "32x32" href="favicon-32x32.png">
     <link rel = "stylesheet" href="style.css">
@@ -10,26 +13,26 @@
   <body>
     
     <header>
-        <h3> What is it?</h3>
-        <p> This is a header. Here you put all your introductory links or what not.</p>
+        <h3 id="realFirst"> What is it?</h3>
+        <p id="fakeFirst"> This is a header. Here you put all your introductory links or what not.</p>
         
     </header>
     <main>
       
       <section>     
        <h1 id="first">About myself.</h1>
-       <h2>Wait a minute. Who are you?</h2>
-       <p> Hello. My name is Asher James. Very nice to meet you.</p>
-       <h2> Why are you making this html page?</h2>
-       <h3> What do you hope to achieve?</h3>
-       <p> Well just to fiddle about with html. Hope to understand the language of HTML little better.</p>
+       <h2 id ="second">Wait a minute. Who are you?</h2>
+       <p id="firstBody"> Hello. My name is Asher James. Very nice to meet you.</p>
+       <h2 id="third"> Why are you making this html page?</h2>
+       <h3 id="'fourth"> What do you hope to achieve?</h3>
+       <p id="secondBody"> Well just to fiddle about with html. Hope to understand the language of HTML little better.</p>
       </section>  
       
       <hr>
 
       <section>
-      <h1> How do I incorporate links in html?</h1>
-      <p> Simple. Use nav tag.</p>
+      <h1 id="applyroot"> How do I incorporate links in html?</h1>
+      <p class="why"> Simple. Use nav tag.</p>
       <nav>
         <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Motivational video</a>
         <a href = "https://www.youtube.com/watch?v=oguLcKCtE7M"> Funny memes</a>
@@ -54,7 +57,7 @@
       </ol>
 
       <h1> Attempt to do in-text stuff</h1>
-      <p>This is normal text - <b> and this is the bolded stuff</b>.</p>
+      <p style="color:red;">This is normal text - <b> and this is the bolded stuff</b>.</p>
       <p>This is normal text- <strong> but this is solely for important text.</strong></p>
       <p> This is normal text -<i> and this should be italicized text</i>.</p>
       <p> This is normal text -<em> and this is text to be emphasized</em>.</p>
@@ -115,7 +118,7 @@
       <input type="checkbox" id="fname3" name="fname"><br><br>
 
 
-      <p>Your last name is:</p>
+      <p id="question">Your last name is:</p>
       <label for="lname">James</label>
       <input type="radio" id="lname1" name="lname"><br><br>
       <label for="lname">Not james</label>
@@ -153,7 +156,7 @@
   <option value="never">never</option>
 </select>
 <br>
-<button type="button">Click Me!</button>
+<button type="button" id="last">Click Me!</button>
 
   </body>
 </html>
