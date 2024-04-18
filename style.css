@@ -99,7 +99,7 @@ nav{
 }
 
 #freqs{
-  margin: bottom;
+  margin: 10px 0px 0px 0px;
   
 }
 
@@ -163,10 +163,11 @@ h1:has(+ p) {
   margin-bottom: 0;
 }
 
-nav {
+#parent {
   margin:20px 0px 0px 0px;
-  & a {
-    margin:20px 0px 0px 0px;
+
+  & > a {
+    color: blanchedalmond;
   }
 }
 
